@@ -1,5 +1,7 @@
 # Password Recovery Automation
 
+> **Disclaimer:** Built for authorized use only — on accounts you own or have explicit written permission to manage.
+
 Automates end-to-end password recovery flow for a VPN service using Playwright browser automation.
 
 ## How it works
