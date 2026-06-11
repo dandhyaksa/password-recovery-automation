@@ -1,0 +1,34 @@
+{
+  "name": "expressvpn-automation",
+  "version": "1.0.0",
+  "description": "Puppeteer automation for ExpressVPN and Spotify account setup",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "expressvpn": "node index.js",
+    "spotify": "node spo/app.js",
+    "spo": "node spo/app.js",
+    "app": "node spo/app.js",
+    "test-proxy": "node spo/test-proxy.js",
+    "both": "node index.js & node spo/app.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "automation",
+    "expressvpn",
+    "spotify"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.3.0",
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.58.2",
+    "puppeteer": "^21.5.0",
+    "puppeteer-real-browser": "^1.4.4"
+  }
+}
