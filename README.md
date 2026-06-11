@@ -1,10 +1,10 @@
-# ExpressVPN Password Recovery Automation
+# Password Recovery Automation
 
-Automates end-to-end password recovery for ExpressVPN accounts using Playwright browser automation.
+Automates end-to-end password recovery flow for a VPN service using Playwright browser automation.
 
 ## How it works
 
-1. Opens ExpressVPN portal and submits email to trigger OTP
+1. Opens the service portal and submits email to trigger OTP
 2. Polls email API to retrieve OTP as soon as it arrives
 3. Submits OTP and navigates to the password reset flow
 4. Polls email API again to retrieve the reset link
